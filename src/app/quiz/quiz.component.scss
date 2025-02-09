@@ -1,0 +1,34 @@
+*{ box-sizing: border-box;}
+  
+ 
+  
+  .btn-options {
+    color: #007bff; /* Primary color */
+    background-color: #ffffff; /* White background */
+    border: 1px solid #007bff; /* Border matching the primary color */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  .btn-options:hover {
+    background-color: #007bff; /* Primary color on hover */
+    color: #ffffff; /* White text on hover */
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+  
+  .card-body {
+    padding-bottom: 100px; /* Adjust this to be greater than the button height */
+  }
+  .queationHeader{
+    padding-bottom: 60px;
+  }
+  .quizContainer{
+    max-height: 100vh;
+    max-width: 100vw;
+  }

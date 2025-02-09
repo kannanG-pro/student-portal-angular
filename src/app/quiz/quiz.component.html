@@ -1,0 +1,33 @@
+<div class="quizContainer">
+    <app-header></app-header>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+      <div class="card mb-3 m-3 p-10 w-50 text-center">
+        <div class="card-header queationHeader">
+          Quiz Question
+          <div class="flagQn  position-absolute" style="left: 3px;">
+            <span>Flag</span><img src="image.png" width="30px" height="30px" alt="flag">
+          </div>
+          <div class="timer  position-absolute" style="right: 3px;">
+            <span>Timer</span><img src="timer.png" width="30px" height="30px" alt="timerImg">
+          </div>
+        </div>
+        <div class="progress" style="margin-top: 10px;">
+            <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="card-body position-relative pb-5">
+          <h5 class="card-title">What is the capital of France?</h5>
+          <div class="btn-group-vertical w-100">
+            <button type="button" class="btn btn-options mb-2">Paris</button>
+            <button type="button" class="btn btn-options mb-2">London</button>
+            <button type="button" class="btn btn-options mb-2">Berlin</button>
+            <button type="button" class="btn btn-options mb-2">Rome</button>
+          </div>
+          <div class="position-absolute w-100">
+            <button type="button" class="btn btn-primary position-absolute" style="left: 3px;" >Previous</button>
+            <button type="button" class="btn btn-primary position-absolute" style="right: 28px;">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
